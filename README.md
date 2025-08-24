@@ -4,7 +4,7 @@ This is a project developed with Django. It allows you to manage a list of items
 
 # Project Structure 🤖
 
-´´´
+```
 src/
 │   db.sqlite3
 │   manage.py
@@ -31,16 +31,13 @@ src/
 │   │   ├── 0001_initial.py
 │   │   └── __pycache__/
 │   ├── static/
-│   │   ├── css/
-│   │   │   └── styles.css
-│   │   └── pictures/
-│   │       └── Logo.png
+│   │   └── css/
+│   │       └── styles.css
 │   └── templates/
 │       ├── base.html
 │       └── core/
 │           └── item_list.html
-
-´´´
+```
 
 # What does this project include?
 
@@ -58,44 +55,44 @@ src/
    cd your_repository/src
    ```
 
-2. **Create and activate a virtual environment**
+2. 📍**Create and activate a virtual environment**
 
   ```sh
    python -m venv venv
    venv\Scripts\activate   #Windows
-   # source venv/bin/activate  # Linux/Mac
+   source venv/bin/activate  # Linux/Mac
    ```
-3. **Install the dependencies**
+3. 📍**Install the dependencies**
 
   ```sh
    pip install django
    ```
 
-4. **Perform the migrations**
+4. 📍**Perform the migrations**
 
   ```sh
    python manage.py migrate
    ```
 
-5.  **Create a superuser (for admin)**
+5.  📍**Create a superuser (for admin)**
 
   ```sh
    python manage.py createsuperuser
    ```
 
-6.  **Run the server**
+6.  📍**Run the server**
 
   ```sh
    python manage.py runserver
    ```
 
-7.  **Access the application**
+7.  📍**Access the application**
 
     - [http://127.0.0.1:8000/](http://127.0.0.1:8000/) for principal web.
     - [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/) for the administration panel.
 
 
-# Annotations
+# Annotations 🗒️
 
 - Don't forget to add a `.gitignore` file to avoid uploading unnecessary files like `venv/`, `db.sqlite3`, `__pycache__/`, etc.
 - You can customize styles in `core/static/css/styles.css`.
