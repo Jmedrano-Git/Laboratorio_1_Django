@@ -2,8 +2,9 @@
 
 This is a project developed with Django. It allows you to manage a list of items with name, date and description, using a web interface with Bootstrap.
 
-# Project Structure
+# Project Structure 🤖
 
+´´´
 src/
 │   db.sqlite3
 │   manage.py
@@ -39,6 +40,8 @@ src/
 │       └── core/
 │           └── item_list.html
 
+´´´
+
 # What does this project include?
 
 - **Item management**: Add, edit and delete items from the Django admin.
@@ -46,9 +49,9 @@ src/
 - **Dynamic deletion**: You can delete items from the table without reloading the page.
 - **Static files**: Custom CSS.
 
-# Project installation
+# Project installation 💯✅
 
-1. **Clone repository**
+1. 📍**Clone repository** 
 
   ```sh
    git clone https://github.com/your_user/your_repository.git
